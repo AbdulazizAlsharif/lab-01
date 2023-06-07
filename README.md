@@ -83,3 +83,4 @@ weight is private and can accessible by setter and getter
               this.weight = weight;
       }
      }
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/AbdulazizAlsharif/lab-01/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/AbdulazizAlsharif/lab-01/tree/main)
