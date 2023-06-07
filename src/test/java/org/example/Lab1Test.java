@@ -1,19 +1,19 @@
 package org.example;
 
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-import java.lang.reflect.Executable;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeAll;
 import java.lang.reflect.Modifier;
 import java.time.LocalDate;
 
-import static org.junit.Assert.*;
+
 
 public class Lab1Test {
     private static Product p1, p2, p3, p4;
 
-    @BeforeClass
+    @BeforeAll
     public static void init() {
         p1 = new FoodProduct(6745, 5.50, "Penne Pasta", 200.0, LocalDate.parse("2024-10-23"));
         p2 = new FoodProduct(8853, 6.50, "Spaghetti Pasta", 220.0, LocalDate.parse("2024-10-23"));
